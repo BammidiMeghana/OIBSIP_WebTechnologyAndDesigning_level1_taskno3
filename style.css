@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(13, 13, 13);
+}
+
+.Container {
+  height: 300px;
+  width: 400px;
+  margin: auto;
+  margin-top: 10%;
+  padding: 50px;
+  align-items: center;
+  border: 2px solid rgb(92, 94, 106);
+   border-radius: 5px;
+   background-color: rgb(255, 151, 48);
+}
+.Container:hover{
+height: 340px;
+width:450px;
+background-color: rgb(178, 80, 132);
+transition: all 2s;
+}
+
+#temperature {
+  height: 40px;
+  width: 250px;
+  margin-left: 60px;
+  font-size: 20px;
+  border-radius: 5px;
+  align-content: center;
+  padding-left: 20px;
+}
+
+select{
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+}
+
+button {
+  height: 35px;
+  width: 150px;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  margin-left: 120px;
+}
+button:hover{
+ color: black;
+  background-color: rgb(219, 29, 29);
+}
+
+#res{
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 250px;
+  border-radius: 10px;
+  margin-left: 30px;
+  font-weight: bolder;
+  font-size: larger;
+}
